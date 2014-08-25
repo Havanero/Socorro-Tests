@@ -6,10 +6,9 @@
 import pytest
 import re
 
-from unittestzero import Assert
-
 from pages.home_page import CrashStatsHomePage
 from pages.products_page import ProductsLinksPage
+from unittestzero import Assert
 
 
 xfail = pytest.mark.xfail

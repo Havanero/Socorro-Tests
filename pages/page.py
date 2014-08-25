@@ -5,11 +5,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 import re
+from selenium.common.exceptions import ElementNotVisibleException, \
+    NoSuchElementException
+from selenium.webdriver.support.ui import WebDriverWait
 
 from unittestzero import Assert
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.common.exceptions import NoSuchElementException
-from selenium.common.exceptions import ElementNotVisibleException
+
 
 http_regex = re.compile('https?://((\w+\.)+\w+\.\w+)')
 

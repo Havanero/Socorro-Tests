@@ -5,9 +5,9 @@
 
 import pytest
 
+from pages.home_page import CrashStatsHomePage
 from unittestzero import Assert
 
-from pages.home_page import CrashStatsHomePage
 
 xfail = pytest.mark.xfail
 prod = pytest.mark.prod

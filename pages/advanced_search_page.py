@@ -5,9 +5,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 import random
-
-from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 
 from pages.base_page import CrashStatsBasePage

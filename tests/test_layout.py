@@ -5,9 +5,8 @@
 
 import pytest
 
-from unittestzero import Assert
-
 from pages.home_page import CrashStatsHomePage
+from unittestzero import Assert
 
 
 class TestLayout:
